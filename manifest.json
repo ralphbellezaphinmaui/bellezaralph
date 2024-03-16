@@ -1,0 +1,30 @@
+{
+    "name": "Shield-Ed+: Safety and Prevention Application",
+    "short_name": "Shield-Ed+",
+    "start_url": "/final_pwa/index.html",
+    "background_color":"#000000",
+    "theme_color":"#000000",
+    "display":"standalone",
+    "icons":[
+    {
+        "src":"styles/manifest/192px.png",
+        "sizes":"192x192",
+        "type":"image/png",
+        "purpose": "maskable"
+        
+        
+    },
+    {
+        "src":"styles/manifest/512px.png",
+        "sizes":"512x512",
+        "type":"image/png",
+        "purpose":"maskable"
+    },
+    {
+        "src":"styles/manifest/144px.png",
+        "sizes":"144x144",
+        "type":"image/png",
+        "purpose":"any"
+    }
+    ]
+}

@@ -1,0 +1,294 @@
+<!-- 
+This file includes code from:
+- Button Design by jh3y, licensed under MIT License (https://codepen.io/jh3y/pen/PoGbxLp)
+- Matrix Design by Achraf Boujjou, licensed under MIT License (https://codepen.io/AchrafBoujjou/pen/RxjWXB)
+- Cyberpunk Theme by gwannon, licensed under GPL v3.0 (https://codepen.io/gwannon/pen/LYjvOLK)
+
+Modifications made by Imagine Dragons(3rd year BSIT Capstone Group Name from Phinma University of Iloilo) in 2024 to integrate into Shield-Ed+: Safety and Prevention App
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shield-Ed+: Safety and Prevention App</title>
+    <link rel="stylesheet" href="styles/index/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="images/192px.png">
+    <meta name="theme-color" content="#ff7f27">
+    
+    
+
+</head>
+
+<body>
+    
+    <header id="head">
+        
+        <div id="brand"><input type="image" src="styles/index/192px.png" style="height: 50px; width: 50px;"><a href="#" style="text-decoration: none;"><h2 style="color: #ff7f27; width: 19vh;">Shield-Ed+</h2></a></div>
+        <nav>
+          <ul>
+            
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#safety">Safety101</a></li>
+            <li><a href="#about">About</a></li>
+            <li id="login"><a href="login.php" >Login</a></li>
+          </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a href="index.html">Home</a></li>
+            <div style="margin-bottom: 25px;"></div>
+            <li><a href="#team">Team</a></li>
+            <div style="margin-bottom: 25px;"></div>
+            <li><a href="#safety">Safety101</a></li>
+            <div style="margin-bottom: 25px;"></div>
+            <li><a href="#about">About</a></li>
+            <div style="margin-bottom: 25px;"></div>
+            <li id="login"><a href="login.php" >Login</a></li>
+            <div style="margin-bottom: 25px;"></div>
+          </ul>
+        </div>
+    </header>
+    <section class="hidden" id="home">
+        <input type="image" src="styles/index/ui.png" style="height: 220px; width: 220px;">
+        <h1></h1>
+        <h2 class="cyberpunk">Shield-Ed+: Safety & Prevention App</h2>
+
+        <h4 class="cyberpunk">Protecting Your School Community</h2>
+            <form action="signup.php">
+                <button class="cybr-btn" style="color: black;">
+                    Register<span aria-hidden></span>
+                    <span aria-hidden class="cybr-btn__glitch">REGISTER</span>
+                    <span aria-hidden class="cybr-btn__tag">CITE</span>
+                </button>
+            </form>
+
+    </section>
+    <div style="height: 100vh;"></div>
+    
+    <section class="hidden" id="team">
+        <img src="styles/index/192px.png" style="text-align: center; height: 120px;">
+        <section class="cyberpunk">
+            <h1 class="cyberpunk" style="width: 100%;">Imagine Dragons Team Members </h1>
+            <div class="container" style="display: flex; justify-content: space-between;">
+                <div class="member">
+                    <p class="cyberpunk">John Ralph Belleza</p>
+                    <img style="height: 196px; width: 231px;" class="cyberpunk dotted" src="styles/index/img/team-1.jpg" alt="" />
+                    <h4 class="cyberpunk">Role: Documentation</h4>
+                </div>
+                <div class="member">
+                    <p class="cyberpunk">Lindsey Kit Baylon</p>
+                    <img style="height: 196px; width: 231px;" class="cyberpunk dotted" src="styles/index/img/team-2.jpg" alt="" />
+                    <h4 class="cyberpunk" style="font-size: 15px;">Role: Back-End / Front-End</h4>
+                </div>
+                <div class="member">
+                    <p class="cyberpunk">Victor John pitos</p>
+                    <img style="height: 196px; width: 231px;" class="cyberpunk dotted" src="styles/index/img/team-3.jpg" alt="" />
+                    <h4 class="cyberpunk">Role: Front-End</h4>
+                </div>
+            </div>
+        </section>
+    </section>
+    <div style="height: 100vh;"></div>
+
+    <section class="hidden" id="safety" style="width: 100%;">
+        <h2 class="cyberpunk">PERSONAL SAFETY 101</h2>
+        <h4 class="cyberpunk">Things you want to do if an incident or emergency occurs.</h4>
+
+        
+        <section class="cyberpunk">
+            <p class="cyberpunk inverse dotted scannedv" style="color: #ff7f27; font-size: 25px;">Suspicious Person/Dangerous Person</p>
+            <ol class="cyberpunk">
+                <h2>
+                    If you are the victim of, are involved in, or witness suspicious behavior
+                    In the unlikely event that you are the victim of, are involved in, or witness an individual behaving in an
+                    unusual or suspicious manner, or an individual is disorderly, intoxicated, committing vandalism, or other
+                    destructive act such as assault, robbery, theft, overt sexual behavior, etc., proceed as follows:
+                </h2>
+                <li>Do not take unnecessary chances</li>
+                <li>Keep a safe distance from the person. Watch him/her only if it is safe to do so.</li>
+                <li>Do not attempt to talk with or remove the individual yourself</li>
+            </ol>
+            <ol class="cyberpunk">
+                <h2>
+                    Call police 9-911 (911 from non-campus or cell phones) with the following information:
+                </h2>
+                
+
+                <li>Nature of incident</li>
+                <li>Location of incident</li>
+                <li>Description of person(s) involved</li>
+                <li>Location of person(s) involved</li>
+                <li>Your name, location, department and extension number</li>
+                <li>Get a good description of the suspicious person if personal safety allows. Note height, weight, sex, color,
+                    approximate age, clothing, method and direction of travel, and name if known. This provides vital
+                    information to investigating police officers.</li>
+                <li>Should a suspicious person attempt to leave the scene in a vehicle, bicycle, etc… note the make and model,
+                    license number (if possible), color, outstanding characteristics, etc.</li>
+                <li>Remain where you are until a police officer arrives</li>
+            </ol>
+            <ol class="cyberpunk">
+                <h1 style="color: red; text-align: center;">IMPORTANT!</h1>
+                <h2>Do not interfere with:</h2>
+                <li>Persons committing the crime/creating the disturbance</li>
+                <li>Law enforcement authorities on the scene</li>
+            </ol>
+            <hr class="cyberpunk black" />
+        </section>
+
+        <div style="height: 20vh;"></div>
+
+        <section class="cyberpunk">
+            <p class="cyberpunk inverse dotted scannedv" style="color: #ff7f27; font-size: 25px;">School Violence/Bullying</p>
+            <ol class="cyberpunk">
+                <h2>
+                    If you witness or experience bullying or violence on a school campus, you should take the following steps:
+                </h2>
+                <li>Stay safe. If you are in immediate danger, move to a safe place or call for help.</li>
+                <li>Report the incident. Tell a trusted adult, such as a teacher, counselor, administrator, or parent. Be as
+                    specific as possible about what happened, who was involved, and when and where it happened. Support the victim. If you know the victim, let them know that you are there for them and that you believe
+                    them. Offer to help them report the incident or to simply talk about what happened.</li>
+
+                <li>Stand up to bullying. If you feel safe doing so, you can try to intervene in a bullying situation. This
+                    could involve telling the bully to stop, standing up for the victim, or getting help from a trusted adult.</li>
+            </ol>
+            <hr class="cyberpunk black" />
+        </section>
+
+        <div style="height: 20vh;"></div>
+
+        <section class="cyberpunk">
+            <p class="cyberpunk inverse dotted scannedv" style="color: #ff7f27; font-size: 25px;">Medical Attention</p>
+            <ol class="cyberpunk">
+                <h2>
+                    Checking an Injured or Ill Person
+                </h2>
+                <li>CHECK the scene for safety, form an initial impression, obtain consent, and use personal protective equipment (PPE)
+                    If the person appears unresponsive, CHECK for responsiveness, breathing, life-threatening bleeding or 
+                    other life-threatening conditions using shout-tap-shout. </li>
+                <h2>
+                    Note: CHECK for no more than 10 seconds
+                </h2>
+                <li>If the person does not respond, responds but is not fully awake, is not breathing or is only gasping, or has life-threatening bleeding or another 
+                    obvious life-threatening condition, CALL 9-1-1 and get equipment, or tell someone to do so.
+                    Then, give CARE based on the condition found and your level of training and continue your check to determine if additional care is needed</li>
+                <h2>
+                    Note: For a person who is unresponsive and not breathing, start CPR and use an AED immediately 
+                </h2>
+                <h2>If the person is responsive or responds to stimulation and is fully awake and does not appear to have a life-threatening condition:</h4>
+                <li>Interview the person (or bystanders, if necessary), ask questions about signs and symptoms, allergies, and medications and medical conditions (SAM)</li>
+                <li>Do a focused check based on what the person told you, how the person is acting and what you see</li>
+                <h2>Do a focused check based on what the person told you, how the person is acting and what you see
+                    Note: Do not ask the person to move if you suspect a head, neck or spinal injury. Do not ask the person to move any area of the 
+                    body that causes discomfort or pain.</h2>
+                <h2>
+                    Note: As you check the person, take note of any medical identification tags
+                </h2>
+                <li>After completing the CHECK step, CALL 9-1-1 and get equipment, or tell someone to do so (if needed). Then, give CARE based on the condition found 
+                    and your level of training</li>
+            </ol>
+
+            <hr class="cyberpunk black" />
+        </section>
+
+        <div style="height: 20vh;"></div>
+
+        <section class="cyberpunk">
+            <p class="cyberpunk inverse dotted scannedv" style="color: #ff7f27; font-size: 25px;">Fire/Explosion</p>
+            
+            <ol class="cyberpunk">
+                <h2>
+                    If a Fire Starts:
+                </h2>
+                <li>Know how to safely operate a fire extinguisher</li>
+                <li>Remember to GET OUT, STAY OUT and CALL 9-1-1 or your local emergency phone number.</li>
+                <li>Yell "Fire!" several times and go outside right away. If you live in a building with elevators, use the stairs. Leave all your things where they are and save yourself.</li>
+                <li>If closed doors or handles are warm or smoke blocks your primary escape route, use your second way out.</li>
+                <li>Never open doors that are warm to the touch.</li>
+                <li>If you must escape through smoke, get low and go under the smoke to your exit. Close doors behind you.</li>
+                <li>If smoke, heat or flames block your exit routes, stay in the room with doors closed. Place a wet towel under
+                    the door and call the fire department or 9-1-1. Open a window and wave a brightly colored cloth or
+                    flashlight to signal for help.</li>
+                <li>Once you are outside, go to your meeting place and then send one person to call the fire department. If you
+                    cannot get to your meeting place, follow your family emergency communication plan.</li>
+            </ol>
+            <ol>
+                <h2>
+                    If your clothes catch on fire:
+                </h2>
+                <li>Stop what you’re doing.</li>
+                <li>Drop to the ground and cover your face if you can.</li>
+                <li>Roll over and over or back and forth until the flames go out. Running will only make the fire burn faster.</li>
+                <li>Once the flames are out, cool the burned skin with water for three to five minutes. Call for medical attention.</li>
+            </ol>
+            <hr class="cyberpunk black" />
+        </section>
+        
+
+        
+
+    </section>
+
+
+
+
+    <div style="height: 100vh;"></div>
+    <section class="hidden" id="about">
+        <h2>About us</h2>
+        <p class="cyberpunk inverse dotted scannedv" style="color: #ff7f27;">We Imagine Dragons consists of front-end and back-end developers to build projects and learn more about modern trends in IT Industry. We are always trying out new technologies to integrate into our system/projects. This
+        project 「Shield-ED+: Safety and Prevention Application」 is one example of using the latest technology called peerjs which is the simplier form of webrtc.</p>
+            
+    </section>
+    <div style="height: 100vh;"></div>
+
+    <section class="hidden" id="partners" >
+        <img src="styles/index/192px.png" style="text-align: center; height: 120px;">
+        <section class="cyberpunk">
+            <h1 class="cyberpunk" style="width: 100%;">Partners</h1>
+            <div class="container" style="display: flex; justify-content: space-between;">
+                <div class="member">
+
+                    <img style="height: 196px; width: 231px;" class="cyberpunk dotted" src="styles/index/ui.png" alt="" />
+                    <h4 class="cyberpunk">Phinma University Of Iloilo</h4>
+                </div>
+                <div class="member">
+
+                    <img style="height: 196px; width: 231px;" class="cyberpunk dotted" src="styles/index/cite.png" alt="" />
+                    <h4 class="cyberpunk" style="font-size: 15px;">College of Information Technology</h4>
+                </div>
+                <div class="member">
+                    <img style="height: 196px; width: 231px;" class="cyberpunk dotted" src="styles/index/imdragon.png" alt="" />
+                    <h4 class="cyberpunk">Imagine Dragons</h4>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="hidden" id="socials">
+    </section>
+
+    <div class="footer1">
+        <footer>
+            <h2 style="text-align: center; color: #ff7f27;">Follow Us!</h2>
+            <div class="social">
+                <a href="#"><i class="fa fa-facebook-official"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-youtube-play"></i></a>
+                <p>Copyright © 2023 Capstone Group: Imagine Dragons</p>
+            </div>
+        </footer>
+    </div>
+    <script src="styles/index/showContents.js"></script>
+    <script src="installer.js" defer></script>
+
+</body>
+</body>
+
+</html>
